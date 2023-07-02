@@ -97,6 +97,7 @@
     "UniqueTo": "Capitalia"
     "Cost": 1000,
     "maintainence": 8,
+    "requiredTech": "Nuclear Fission",
     "uniques": [
 			"Consumes [2] [Uranium]",
       "Consumes [1] [Aluminum]",
