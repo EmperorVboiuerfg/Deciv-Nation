@@ -1,0 +1,107 @@
+[
+    // Capital Uniques
+    {
+        "name": "Caput Mundi",
+        "isWonder": true,
+        "uniqueTo": "Capitalia",
+        "cost": 1,
+        "citystrength": 20,
+        "cityhealth": 100,
+        "gold": 15,
+        "uniques": [
+            "Can only be built [in capital]",
+            "[+5 Culture] from every specialist [in this city]",
+            "[+15]% growth [in capital]",
+        ],
+        "quote": "Civilizations have rose and fell for centuries, but we do not intend to fall, for we have witnessed the mistakes of our ancestors and learnt. We are the Caput Mundi, Capital of the World, a shining beacon of civilization upon this desolate world.",
+        "civilopediaText": [
+            {
+                "text": "Capitalia is one of the few surviving cities of old, boasting a population of several hundred thousands, it one of the largest and greatest cities in the wasteland. "
+            },
+            {
+                "text": "Situated upon the vital chokepoint between Caesar's Legion and Hexlock, Capitalia must juggle a balance of diplomacy and deterrence to ensure their independence."
+            }
+        ]
+{
+		"name": "The Bastion",
+		"isWonder": true,
+		"uniqueTo": "Capitalia",
+		"cityHealth": 150,
+		"cost": 2500,
+		"production": 3,
+    "citystrength": 15
+    "cityhealth": 50,
+		"uniques": [
+			"Provides [2] [Encrypted Data]",
+			"Provides [2] [Power]",
+			"[+2 Culture, +5 science] [in this city] <after discovering [Computers]>",
+			"Free [Capitalian Guard] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Stronghold] [in this city]"
+		],
+		"quote": "A great monolithic structure overlooking our city, it is truly a masterpiece produced by the finest engineers and architectures we have. The Bastion will provide us a stronghold in the event of a foreign invasion, and in times of peace, jobs for the masses and a symbol of our power and prosperity.",
+		"civilopediaText": [
+			{
+				"text": "A great monolithic structure overlooking our city, it is truly a masterpiece produced by the finest engineers and architectures we have. The Bastion will provide us a stronghold in the event of a foreign invasion, and in times of peace, jobs for the masses and a symbol of our power and prosperity."
+			}
+		]
+	},
+  
+    // Normal Uniques
+    {
+        "name": "House of Representatives",
+        "replaces": "Congress",
+        "uniqueTo": "Capitalia",
+        "cost": 100,
+        "requiredTech": "Civil Service",
+        "uniques": [
+            "[+1 Culture] per [2] population [in all cities]",
+            "[-50]% unhappiness from [Population] [in all cities connected to capital]",
+            "[+25]% growth [in all cities]",
+            "Only available <if [Search for Survivors] is constructed>",
+            "Can only be built [in capital]",
+            "Destroyed when the city is captured"
+        ]
+    },
+  {
+    "name": "Stronghold"
+    "replaces": "Bunker"
+    "UniqueTo": "Capitalia"
+    "cost": 300,
+    "requiredTech": "Munitions",
+    "cityHealth": 300,
+    "culture": 3,
+    "maintainence": 3,
+    "Uniques": [
+      "[+15]% growth [in all cities connected to capital]",
+       ]
+  },
+  {
+    "name": "Vertical Farms"
+    "replaces": "Greenhouse"
+    "UniqueTo": "Capitalia"
+    "cost": 125,
+    "maintainence": 5,
+    "specialistSlots": { "Farmer": 3 },
+    "food": 4
+    "Uniques": [ 
+    "[+2 Food] from [Tubers] tiles [in this city]",
+    "[+2 Food] from [Grain] tiles [in this city]",
+       ]
+  },
+  {
+    "name": "Fusion Plant" 
+    "replaces": "Nuclear Plant"
+    "UniqueTo": "Capitalia"
+    "Cost": 1000,
+    "maintainence": 8,
+    "uniques": [
+			"Consumes [2] [Uranium]",
+      "Consumes [1] [Aluminium]",
+			"Provides [12] [Power]",
+			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
+			"[+33]% Production when constructing [Missile] units [in this city]",
+			"Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Recycling Plant]>",
+			"Only available <in cities with a [Library]>"
+       }
+]
