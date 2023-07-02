@@ -1,4 +1,4 @@
-[
+	// Nations
     {
         "name": "Capitalia",
         "leaderName": "Praefectus",
@@ -40,5 +40,3 @@
                 "text": "But here we are, survivors, united in our determination to rebuild what was lost and forge a new future. The story of our civilization will not end with destruction; instead, it will be defined by our ability to survive, rebuild, and thrive. Thank you, and let us embark on this remarkable journey together."
             }
         ]
-    }
-]
