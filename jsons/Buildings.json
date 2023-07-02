@@ -20,9 +20,8 @@
             },
             {
                 "text": "Situated upon the vital chokepoint between Caesar's Legion and Hexlock, Capitalia must juggle a balance of diplomacy and deterrence to ensure their independence."
-            }
-        ]
-{
+            },
+            {
 		"name": "The Bastion",
 		"isWonder": true,
 		"uniqueTo": "Capitalia",
