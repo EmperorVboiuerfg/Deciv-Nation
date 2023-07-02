@@ -30,8 +30,8 @@
 		"cityHealth": 150,
 		"cost": 2500,
 		"production": 3,
-    "citystrength": 15
-    "cityhealth": 50,
+                "citystrength": 15
+                "cityhealth": 50,
 		"uniques": [
 			"Provides [2] [Encrypted Data]",
 			"Provides [2] [Power]",
