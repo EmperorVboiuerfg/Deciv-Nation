@@ -12,6 +12,7 @@
             "Can only be built [in capital]",
             "[+5 Culture] from every specialist [in this city]",
             "[+15]% growth [in capital]",
+	    "[10]% Food is carried over after population increases [in this city]",
         ],
         "quote": "Civilizations have rose and fell for centuries, but we do not intend to fall, for we have witnessed the mistakes of our ancestors and learnt. We are the Caput Mundi, Capital of the World, a shining beacon of civilization upon this desolate world.",
         "civilopediaText": [
@@ -35,7 +36,7 @@
 		"uniques": [
 			"Provides [2] [Encrypted Data]",
 			"Provides [2] [Power]",
-			"[+2 Culture, +5 science] [in this city] <after discovering [Computers]>",
+			"[+5 science] [in this city] <after discovering [Computers]>",
 			"Free [Capitalian Guard] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Stronghold] [in this city]"
