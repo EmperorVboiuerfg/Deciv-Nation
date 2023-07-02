@@ -2,7 +2,7 @@
     {
         "name": "Capitalia",
         "leaderName": "Praefectus",
-        "adjective": ["Capit"],
+        "adjective": ["Capitalian"],
         "startBias": ["Coast"],
         "preferredVictoryType": "Diplomatic",
         "favoredReligion": "Humanism",
