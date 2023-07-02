@@ -102,5 +102,6 @@
 			"[+33]% Production when constructing [Missile] units [in this city]",
 			"Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Recycling Plant]>",
 			"Only available <in cities with a [Library]>"
-       }
+               ]
+	}
 ]
