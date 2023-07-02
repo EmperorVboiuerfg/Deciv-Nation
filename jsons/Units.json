@@ -16,7 +16,7 @@
       "promotions": ["Capitalian Guard"],
 		],
 		"attackSound": "shot"
-  },
+        },
 	{
 		"name": "The Sky Monitor",
 		"replaces": "Hovercraft",
