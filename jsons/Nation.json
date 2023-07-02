@@ -837,7 +837,7 @@
 		"Arzamas-16","Golitsino-2","Semipalatinsk-16","Krasnoyarsk-25","Shkotovo-22"]
 	},
 	{
-				"name": "Capitalia",
+		"name": "Capitalia",
 		"leaderName": "Praefectus",
 		"adjective": ["Capitalian"],
 		"startBias": ["Coast"],
