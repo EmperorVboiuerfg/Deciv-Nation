@@ -32,7 +32,7 @@
 		"favoredReligion": "Humanism",
 		"uniqueName": "Caput Mundi",
 		"uniques": [ "Starts with [Constitution] adopted", "[+70]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>", "[+200]% growth [in all cities] <when not at war>", "Starts with [Construction]", "Starts with [Writing]", "Cannot build [Settler] units", "Cannot build [Enslaved] units"],
-		"cities": ["Estrein"],
+		"cities": ["Capitalia"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	}
 
