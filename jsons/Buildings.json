@@ -7,7 +7,7 @@
         "cost": 1,
         "citystrength": 20,
         "cityhealth": 100,
-        "gold": 15,
+        "gold": 50,
         "uniques": [
             "Can only be built [in capital]",
             "[+5 Culture] from every specialist [in this city]",
@@ -29,7 +29,7 @@
 		"isWonder": true,
 		"uniqueTo": "Capitalia",
 		"cityHealth": 150,
-		"cost": 2500,
+		"cost": 1,
 		"production": 3,
                 "citystrength": 15
                 "cityhealth": 50,
@@ -54,7 +54,7 @@
         "name": "House of Representatives",
         "replaces": "Congress",
         "uniqueTo": "Capitalia",
-        "cost": 100,
+        "cost": 1,
         "requiredTech": "Civil Service",
         "uniques": [
             "[+1 Culture] per [2] population [in all cities]",
@@ -69,7 +69,7 @@
     "name": "Stronghold"
     "replaces": "Bunker"
     "UniqueTo": "Capitalia"
-    "cost": 300,
+    "cost": 3,
     "requiredTech": "Munitions",
     "cityHealth": 300,
     "culture": 3,
@@ -82,7 +82,7 @@
     "name": "Vertical Farms"
     "replaces": "Greenhouse"
     "UniqueTo": "Capitalia"
-    "cost": 125,
+    "cost": 1,
     "maintainence": 5,
     "specialistSlots": { "Farmer": 3 },
     "food": 4
@@ -95,7 +95,7 @@
     "name": "Fusion Plant" 
     "replaces": "Nuclear Plant"
     "UniqueTo": "Capitalia"
-    "Cost": 1000,
+    "Cost": 1,
     "maintainence": 8,
     "requiredTech": "Nuclear Fission",
     "uniques": [
