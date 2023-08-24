@@ -28,10 +28,10 @@
 		"tradeRequest": "Capitalia is known for its many resources, natural or not, yet we do not have everything we need. We wish to negotiate a trade.",
 
 		"outerColor": [34,52,52],
-		"innerColor": [266,225,157],
+		"innerColor": [255, 255, 255],
 		"favoredReligion": "Humanism",
 		"uniqueName": "Caput Mundi",
-		"uniques": [ "Starts with [Constitution] adopted", "[+70]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>", "[+200]% growth [in all cities] <when not at war>", "Starts with [Construction]", "Starts with [Writing]", "Cannot build [Settler] units", "Cannot build [Enslaved] units"],
+		"uniques": [ "Starts with [Constitution] adopted", "[+70]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>", "[+200]% growth [in all cities] <when not at war>", "[+99999]% Culture cost of natural border growth [in all cities]", "Starts with [Construction]", "Starts with [Writing]", "Cannot build [Settler] units", "Cannot build [Enslaved] units"],
 		"cities": ["Capitalia"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	}
