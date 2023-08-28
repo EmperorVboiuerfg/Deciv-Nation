@@ -7,7 +7,7 @@
         "cost": 1,
         "citystrength": 20,
         "cityhealth": 100,
-        "gold": 50,
+        "gold": 1500,
         "uniques": [
             "Can only be built [in capital]",
             "[+5 Culture] from every specialist [in this city]",
