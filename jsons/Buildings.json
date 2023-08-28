@@ -8,6 +8,7 @@
         "citystrength": 20,
         "cityhealth": 100,
         "gold": 1500,
+	"faith": 50,
         "uniques": [
             "Can only be built [in capital]",
             "[+5 Culture] from every specialist [in this city]",
@@ -34,8 +35,8 @@
                 "citystrength": 15
                 "cityhealth": 50,
 		"uniques": [
-			"Provides [2] [Encrypted Data]",
-			"Provides [2] [Power]",
+			"Provides [4] [Encrypted Data]",
+			"Provides [5] [Power]",
 			"[+4 Culture] [in this city] <after discovering [Computers]>",
 			"Free [Capitalian Guard] appears",
 			"Can only be built [in capital]",
@@ -52,7 +53,7 @@
     // Normal Uniques
     {
         "name": "House of Representatives",
-        "replaces": "Congress",
+        "replaces": "Council",
         "uniqueTo": "Capitalia",
         "cost": 1,
         "requiredTech": "Civil Service",
