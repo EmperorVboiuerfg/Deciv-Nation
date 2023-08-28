@@ -9,7 +9,7 @@
 	{
 		//nations
 		"name": "Capitalia",
-		"leaderName": "Praefectus",
+		"leaderName": "The Benevolent One",
 		"adjective": ["Capitalian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
@@ -19,8 +19,8 @@
 
 		"declaringWar": "Resources are scarce, our people must survive.",
 		"attacked": "A foolish action that you will come to regret.",
-		"defeated": "With heavy hearts and the weight of responsibility, I hereby declare the surrender of our nation, acknowledging the need for peace and the preservation of our people.!",
-		"introduction": "Greetings, fellow survivors of the Cataclysm, I am the Parefectus, leader of Capitalia. We as a people, are inherently peaceful, and we hope you are too.",
+		"defeated": "With heavy hearts and the weight of responsibility, I hereby declare the surrender of our nation, acknowledging the need for peace and the preservation of our people.",
+		"introduction": "Greetings, fellow survivors of the Cataclysm, I am known merely as the Benevolent One, leader of Capitalia. We as a people, are inherently peaceful, and we hope you are too.",
 
 		"neutralHello": "Greetings, have you come to trade??",
 		"hateHello": "What does this wretch want?",
