@@ -5,15 +5,13 @@
         "isWonder": true,
         "uniqueTo": "Capitalia",
         "cost": 1,
-        "citystrength": 20,
+        "citystrength": 50,
         "cityhealth": 100,
-        "gold": 1500,
-	"faith": 50,
+        "gold": 5000,
+	"faith": 150,
         "uniques": [
             "Can only be built [in capital]",
             "[+5 Culture] from every specialist [in this city]",
-            "[+15]% growth [in capital]",
-	    "[10]% Food is carried over after population increases [in this city]",
         ],
         "quote": "Civilizations have rose and fell for centuries, but we do not intend to fall, for we have witnessed the mistakes of our ancestors and learnt. We are the Caput Mundi, Capital of the World, a shining beacon of civilization upon this desolate world.",
         "civilopediaText": [
@@ -32,11 +30,12 @@
 		"cityHealth": 150,
 		"cost": 1,
 		"production": 3,
-                "citystrength": 15
+                "citystrength": 45
                 "cityhealth": 50,
 		"uniques": [
 			"Provides [4] [Encrypted Data]",
 			"Provides [5] [Power]",
+			"Provides [5] [Oil]",
 			"[+4 Culture] [in this city] <after discovering [Computers]>",
 			"Free [Capitalian Guard] appears",
 			"Can only be built [in capital]",
@@ -60,7 +59,6 @@
         "uniques": [
             "[+1 Culture] per [2] population [in all cities]",
             "[-50]% unhappiness from [Population] [in all cities connected to capital]",
-            "[+25]% growth [in all cities]",
             "Only available <if [Search for Survivors] is constructed>",
             "Can only be built [in capital]",
             "Destroyed when the city is captured"
@@ -75,9 +73,6 @@
     "cityHealth": 300,
     "culture": 3,
     "maintainence": 3,
-    "Uniques": [
-      "[+15]% growth [in all cities connected to capital]",
-       ]
   },
   {
     "name": "Vertical Farms"
@@ -105,7 +100,6 @@
 			"Provides [12] [Power]",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
 			"[+33]% Production when constructing [Missile] units [in this city]",
-			"Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Recycling Plant]>",
 			"Only available <in cities with a [Library]>"
 		]
 	}
