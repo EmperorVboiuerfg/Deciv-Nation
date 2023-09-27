@@ -22,12 +22,11 @@
 		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 65,
-		"rangedStrength": 70,
+		"rangedStrength": 80,
 		"range": 8,
 		"interceptRange": 5,
 		"cost": 185,
 		"requiredTech": "Avionics",
-		"obsoleteTech": "Robotics",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"[100]% chance to intercept air attacks",
