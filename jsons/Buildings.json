@@ -32,6 +32,7 @@
 		"production": 3,
                 "citystrength": 45
                 "cityhealth": 50,
+		"specialistSlots": { "Administrator": 3 },
 		"uniques": [
 			"Provides [4] [Encrypted Data]",
 			"Provides [5] [Power]",
@@ -75,25 +76,13 @@
     "maintainence": 3,
   },
   {
-    "name": "Vertical Farms"
-    "replaces": "Greenhouse"
-    "UniqueTo": "Capitalia"
-    "cost": 1,
-    "maintainence": 5,
-    "specialistSlots": { "Farmer": 3 },
-    "food": 4
-    "Uniques": [ 
-    "[+2 Food] from [Tubers] tiles [in this city]",
-    "[+2 Food] from [Grain] tiles [in this city]",
-       ]
-  },
-  {
     "name": "Fusion Plant" 
     "replaces": "Nuclear Plant"
     "UniqueTo": "Capitalia"
     "Cost": 1,
-    "maintainence": 8,
+    "maintainence": 10,
     "requiredTech": "Nuclear Fission",
+    "specialistSlots": { "Engineer": 8 },
     "uniques": [
 			"Consumes [2] [Uranium]",
       "Consumes [1] [Aluminum]",
