@@ -35,10 +35,9 @@
 		"specialistSlots": { "Administrator": 3 },
 		"uniques": [
 			"Provides [4] [Encrypted Data]",
-			"Provides [5] [Power]",
-			"Provides [5] [Oil]",
+			"Provides [15] [Power]",
+			"Provides [15] [Oil]",
 			"[+4 Culture] [in this city] <after discovering [Computers]>",
-			"Free [Capitalian Guard] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Stronghold] [in this city]"
 		],
