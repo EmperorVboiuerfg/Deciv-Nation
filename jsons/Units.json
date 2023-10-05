@@ -5,6 +5,7 @@
 		"unitType": "Shooter",
 		"cost": 1,
 		"movement": 1,
+	        "range": 1,
 		"strength": 85,
 		"requiredTech": "Energy Weapons",
 		"hurryCostModifier": 200,
