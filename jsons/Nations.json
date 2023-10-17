@@ -8,9 +8,9 @@
 
 	{
 		//nations
-		"name": "Capitalia",
+		"name": "Seawall",
 		"leaderName": "The Benevolent One",
-		"adjective": ["Capitalian"],
+		"adjective": ["Wallian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 
@@ -30,16 +30,14 @@
 		"outerColor": [34,52,52],
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Humanism",
-		"uniqueName": "Caput Mundi",
+		"uniqueName": "The Island Fort",
 		"uniques": [ 
 			"Starts with [Constitution] adopted", 
 			"[+100]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>",
 			"[+999999999]% Culture cost of natural border growth [in all cities]",
 			"[-150]% City-state Influence degradation",
-			"City-State Influence recovers at twice the normal rate",
-			"City-State territory always counts as friendly territory",
 		],
-		"cities": ["Capitalia"],
+		"cities": ["Seawall"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	}
 
