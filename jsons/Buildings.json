@@ -1,9 +1,9 @@
 [
     // Capital Uniques
     {
-        "name": "Caput Mundi",
+        "name": "The Island",
         "isWonder": true,
-        "uniqueTo": "Capitalia",
+        "uniqueTo": "Seawall",
         "cost": 1,
         "citystrength": 50,
         "cityhealth": 100,
@@ -24,9 +24,9 @@
 		]
 	},
         {
-		"name": "The Bastion",
+		"name": "Barrier of The Sea",
 		"isWonder": true,
-		"uniqueTo": "Capitalia",
+		"uniqueTo": "Seawall",
 		"cityHealth": 150,
 		"cost": 1,
 		"production": 3,
@@ -65,9 +65,9 @@
         ]
     },
   {
-    "name": "Stronghold"
+    "name": "Embankment"
     "replaces": "Bunker"
-    "UniqueTo": "Capitalia"
+    "UniqueTo": "Seawall"
     "cost": 3,
     "requiredTech": "Munitions",
     "cityHealth": 300,
@@ -76,8 +76,7 @@
   },
   {
     "name": "Fusion Plant" 
-    "replaces": "Nuclear Plant"
-    "UniqueTo": "Capitalia"
+    "UniqueTo": "Seawall"
     "Cost": 1,
     "maintainence": 10,
     "requiredTech": "Nuclear Fission",
