@@ -1,7 +1,7 @@
 [
     {
-        "name": "Citadel Guardians",
-        "uniqueTo": "Capitalia",
+        "name": "Coast Guards",
+        "uniqueTo": "Seawall",
 		"unitType": "Shooter",
 		"cost": 1,
 		"movement": 1,
@@ -19,7 +19,7 @@
         },
 	{
                 "name": "Skywatcher Patrol",
-		"uniqueTo": "Capitalia",
+		"uniqueTo": "Seawall",
 		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 65,
