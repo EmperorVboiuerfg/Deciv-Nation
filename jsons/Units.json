@@ -12,7 +12,7 @@
 		"hurryCostModifier": 200,
 		"uniques": [
 			"Personnel",
-            "Consumes [3] [Weapons]",
+            "Consumes [1] [Weapons]",
             "All adjacent units heal [+5] HP when healing",
 			"All adjacent units heal [+10] HP when healing <in [Land] [Friendly Land] tiles>", "[+50]% Strength <when defending>"],
 	        "promotions": ["[Capitalian Guard] ability", "Gas Mask", "Amphibious", "Seafarer"],
