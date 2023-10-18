@@ -25,12 +25,12 @@
 		"neutralHello": "Greetings, have you come to trade??",
 		"hateHello": "What does this wretch want?",
 
-		"tradeRequest": "Capitalia is known for its many resources, natural or not, yet we do not have everything we need. We wish to negotiate a trade.",
+		"tradeRequest": "Seawall is known for its many resources, natural or not, yet we do not have everything we need. We wish to negotiate a trade.",
 
 		"outerColor": [34,52,52],
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Humanism",
-		"uniqueName": "The Island Fort",
+		"uniqueName": "The Coastal Citdal",
 		"uniques": [ 
 			"Starts with [Constitution] adopted", 
 			"[+100]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>",
