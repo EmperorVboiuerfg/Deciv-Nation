@@ -1,7 +1,7 @@
 [
     // Capital Uniques
     {
-        "name": "The Island",
+        "name": "The Seawall",
         "isWonder": true,
         "uniqueTo": "Seawall",
         "cost": 1,
