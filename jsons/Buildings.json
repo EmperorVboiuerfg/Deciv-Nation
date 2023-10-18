@@ -1,7 +1,7 @@
 [
     // Capital Uniques
     {
-        "name": "The Seawall",
+        "name": "Citadel By The Sea",
         "isWonder": true,
         "uniqueTo": "Seawall",
         "cost": 1,
@@ -13,13 +13,13 @@
             "Can only be built [in capital]",
             "[+5 Culture] from every specialist [in this city]",
         ],
-        "quote": "Civilizations have rose and fell for centuries, but we do not intend to fall, for we have witnessed the mistakes of our ancestors and learnt. We are the Caput Mundi, Capital of the World, a shining beacon of civilization upon this desolate world.",
+        "quote": "A beauty of a bygone era, the Citadel By The Sea was constructed by the finest of architects, of materials stronger than anything we know of today. No one knows why, or how it was built, but it has become the home of thousands following the Cataclysm.",
         "civilopediaText": [
             {
                 "text": "Seawall is one of the few surviving cities of old, boasting a population of several hundred thousands, it one of the largest and greatest cities in the wasteland. "
             },
             {
-                "text": "Situated upon the vital chokepoint between Caesar's Legion and Hexlock, Capitalia must juggle a balance of diplomacy and deterrence to ensure their independence."
+                "text": "Situated upon the vital chokepoint between Caesar's Legion and The Patriots, Seawall must juggle a balance of diplomacy and deterrence to ensure their independence."
 			}
 		]
 	},
@@ -32,7 +32,7 @@
 		"production": 3,
                 "citystrength": 45
                 "cityhealth": 50,
-		"specialistSlots": { "Administrator": 3 },
+		"specialistSlots": { "Engineer": 3 },
 		"uniques": [
 			"Provides [4] [Encrypted Data]",
 			"Provides [15] [Power]",
@@ -53,7 +53,7 @@
     {
         "name": "House of Representatives",
         "replaces": "Council",
-        "uniqueTo": "Capitalia",
+        "uniqueTo": "Seawall",
         "cost": 1,
         "requiredTech": "Civil Service",
         "uniques": [
