@@ -11,6 +11,7 @@
 	"faith": 150,
         "uniques": [
             "Can only be built [in capital]",
+	    "New [All] units start with [10000000] Experience [in all cities]",
             "[+5 Culture] from every specialist [in this city]",
         ],
         "quote": "A beauty of a bygone era, the Citadel By The Sea was constructed by the finest of architects, of materials stronger than anything we know of today. No one knows why, or how it was built, but it has become the home of thousands following the Cataclysm.",
