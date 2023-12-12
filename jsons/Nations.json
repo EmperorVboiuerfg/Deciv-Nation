@@ -8,10 +8,10 @@
 
 	{
 		//nations
-		"name": "Seawall",
+		"name": "Chengshi",
 		"leaderName": "The Benevolent One",
-		"adjective": ["Wallian"],
-		"startBias": ["Coast"],
+		"adjective": ["Chengshi"],
+		"startBias": ["River"],
 		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": "Ladies and gentlemen, survivors of the catacylsm that brought our world to its knees, I stand before you today as a beacon of hope, a symbol of resilience, and a testament to the indomitable human spirit. We have endured unimaginable hardships, witnessed the collapse of our once-thriving civilization, and faced the brink of annihilation",
@@ -20,24 +20,24 @@
 		"declaringWar": "Resources are scarce, our people must survive.",
 		"attacked": "A foolish action that you will come to regret.",
 		"defeated": "With heavy hearts and the weight of responsibility, I hereby declare the surrender of our nation, acknowledging the need for peace and the preservation of our people.",
-		"introduction": "Greetings, fellow survivors of the Cataclysm, I am known merely as the Benevolent One, leader of Capitalia. We as a people, are inherently peaceful, and we hope you are too.",
+		"introduction": "Greetings, fellow survivors of the Cataclysm, I am known merely as the Benevolent One, leader of Chengshi. We as a people, are inherently peaceful, and we hope you are too.",
 
 		"neutralHello": "Greetings, have you come to trade??",
 		"hateHello": "What does this wretch want?",
 
-		"tradeRequest": "Seawall is known for its many resources, natural or not, yet we do not have everything we need. We wish to negotiate a trade.",
+		"tradeRequest": "Chengshi is known for its many resources, natural or manufactured, yet we do not have everything we need. We wish to negotiate a trade.",
 
 		"outerColor": [34,52,52],
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Humanism",
-		"uniqueName": "The Coastal Citdal",
+		"uniqueName": "Beacon In The Wastelands",
 		"uniques": [ 
 			"Starts with [Constitution] adopted", 
 			"[+100]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>",
 			"[+999999999]% Culture cost of natural border growth [in all cities]",
 			"[-150]% City-state Influence degradation",
 		],
-		"cities": ["Seawall"],
+		"cities": ["Chengshi"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	}
 
