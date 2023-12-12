@@ -14,10 +14,10 @@
 	    "New [All] units start with [10000000] Experience [in all cities]",
             "[+5 Culture] from every specialist [in this city]",
         ],
-        "quote": "A beauty of a bygone era, the Citadel By The Sea was constructed by the finest of architects, of materials stronger than anything we know of today. No one knows why, or how it was built, but it has become the home of thousands following the Cataclysm.",
+        "quote": "A beauty of a bygone era, the Chengshi City Center was constructed by the finest of architects, of materials stronger than anything we know of today. No one knows why, or how it was built, but it has become the home of thousands following the Cataclysm.",
         "civilopediaText": [
             {
-                "text": "Seawall is one of the few surviving cities of old, boasting a population of several hundred thousands, it one of the largest and greatest cities in the wasteland. "
+                "text": "Chengshi is one of the few surviving cities of old, boasting a population of several hundred thousands, it one of the largest and greatest cities in the wasteland. "
             },
             {
                 "text": "Situated upon the vital chokepoint between Caesar's Legion and The Patriots, Seawall must juggle a balance of diplomacy and deterrence to ensure their independence."
@@ -25,36 +25,32 @@
 		]
 	},
         {
-		"name": "Barrier of The Sea",
+		"name": "The Great Baolei",
 		"isWonder": true,
-		"uniqueTo": "Seawall",
+		"uniqueTo": "Chengshi",
 		"cityHealth": 150,
 		"cost": 1,
-		"production": 3,
+		"culture": 20,
                 "citystrength": 45
                 "cityhealth": 50,
 		"specialistSlots": { "Engineer": 3 },
 		"uniques": [
-			"Provides [4] [Encrypted Data]",
+			"Provides [10] [Encrypted Data]",
 			"Provides [15] [Power]",
 			"Provides [15] [Oil]",
 			"Provides [15] [Weapons]",
+			"Provides [15] [Uranium]",
+			"Provides [15] [Aluminum]",
 			"[+4 Culture] [in this city] <after discovering [Computers]>",
 			"Can only be built [in capital]",
 		],
-		"quote": "A great monolithic structure overlooking our city, it is truly a masterpiece produced by the finest engineers and architectures we have. The Bastion will provide us a stronghold in the event of a foreign invasion, and in times of peace, jobs for the masses and a symbol of our power and prosperity.",
-		"civilopediaText": [
-			{
-				"text": "A great monolithic structure overlooking our city, it is truly a masterpiece produced by the finest engineers and architectures we have. The Bastion will provide us a stronghold in the event of a foreign invasion, and in times of peace, jobs for the masses and a symbol of our power and prosperity."
-			}
-		]
 	},
   
     // Normal Uniques
     {
-        "name": "House of Representatives",
+        "name": "House Of The People",
         "replaces": "Council",
-        "uniqueTo": "Seawall",
+        "uniqueTo": "Chengshi",
         "cost": 1,
         "requiredTech": "Civil Service",
         "uniques": [
@@ -66,18 +62,16 @@
         ]
     },
   {
-    "name": "Embankment"
-    "replaces": "Bunker"
-    "UniqueTo": "Seawall"
+    "name": "Integrated Factories"
+    "UniqueTo": "Chengshi"
     "cost": 3,
     "requiredTech": "Munitions",
-    "cityHealth": 300,
-    "culture": 3,
+    "production": 100,
     "maintainence": 3,
   },
   {
     "name": "Fusion Plant" 
-    "UniqueTo": "Seawall"
+    "UniqueTo": "Chengshi"
     "Cost": 1,
     "maintainence": 10,
     "requiredTech": "Nuclear Fission",
