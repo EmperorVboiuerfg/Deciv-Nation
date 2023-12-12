@@ -1,9 +1,9 @@
 [
     // Capital Uniques
     {
-        "name": "Citadel By The Sea",
+        "name": "Chengshi City Center",
         "isWonder": true,
-        "uniqueTo": "Seawall",
+        "uniqueTo": "Chengshi",
         "cost": 1,
         "citystrength": 50,
         "cityhealth": 100,
