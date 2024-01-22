@@ -1,54 +1,35 @@
 [
     {
-        "name": "Chengshi Land-Defense System",
-        "uniqueTo": "Chengshi",
+        "name": "Bidayatan Land-Defense System",
+        "uniqueTo": "Bidayatan",
 		"unitType": "Siege",
 		"cost": 1,
 		"movement": 0,
-	        "range": 3,
-	        "strength": 50,
+	        "range": 2,
+	        "strength": 30,
+	        "interceptRange": 4,
 		"rangedStrength": 120,
 		"requiredTech": "Energy Weapons",
 		"hurryCostModifier": 200,
 		"uniques": [
-            "Consumes [5] [Weapons]",
+            "Consumes [3] [Weapons]",
+	    "[100]% chance to intercept air attacks",
             "All adjacent units heal [+5] HP when healing",
 			"All adjacent units heal [+10] HP when healing <in [Land] [Friendly Land] tiles>", "[+150]% Strength <when defending>"],
 	        "promotions": ["[Integrated Defense] ability", "Gas Mask", "Sentry", "Artillery", "Chemical Weapons", "Thermoptic Camouflage"],
 		"attackSound": "bombing"
         },
 	{
-                "name": "Chengshi Air-Defense System",
-		"uniqueTo": "Chengshi",
-		"unitType": "Fighter",
-		"movement": 0,
-		"strength": 50,
-		"rangedStrength": 125,
-		"range": 5,
-		"interceptRange": 5,
-		"cost": 1,
-		"requiredTech": "Avionics",
-		"hurryCostModifier": 20,
-		"uniques": [
-			"[3] extra interceptions may be made per turn",
-			"[100]% chance to intercept air attacks",
-			"[+120]% Strength <vs [Bomber] units>",
-			"[+120]% Strength <vs [Fighter] units>",
-			"Cannot attack",
-			"Only available <if [Factory] is constructed>",
-			"Consumes [2] [Oil]"]
-		        "attackSound": "machinegun"
-	},
-	{
-		"name": "Chengshi Minbing",
+		"name": "Bidayatan Soldier",
 		"unitType": "Scrapper",
-		"uniqueTo": "Chengshi",
+		"uniqueTo": "Bidayatan",
+		"replaces": "Soldier"
 		"movement": 2,
-		"strength": 45,
+		"strength": 40,
 		"cost": 25,
 		"hurryCostModifier": 20,
 		"uniques": ["All adjacent units heal [+15] HP when healing",
 			"All adjacent units heal [+15] HP when healing <in [Land] [Friendly Land] tiles>"]
-		"promotions": ["Reconnaissance I", "Medic II","Skirmish", "Gas Mask"],
+		"promotions": ["Reconnaissance I","Skirmish"],
 	},
 ]
