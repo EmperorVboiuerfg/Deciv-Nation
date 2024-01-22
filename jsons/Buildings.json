@@ -1,39 +1,37 @@
 [
     // Capital Uniques
     {
-        "name": "Chengshi City Center",
+        "name": "Bidayatan, City of Hope",
         "isWonder": true,
-        "uniqueTo": "Chengshi",
+        "uniqueTo": "Bidayatan",
         "cost": 1,
-        "citystrength": 50,
-        "cityhealth": 100,
-        "gold": 5000,
+        "citystrength": 10,
+        "cityhealth": 30,
+        "gold": 250,
 	"faith": 150,
         "uniques": [
             "Can only be built [in capital]",
 	    "New [All] units start with [10000000] Experience [in all cities]",
             "[+5 Culture] from every specialist [in this city]",
         ],
-        "quote": "A beauty of a bygone era, the Chengshi City Center was constructed by the finest of architects, of materials stronger than anything we know of today. No one knows why, or how it was built, but it has become the home of thousands following the Cataclysm.",
+        "quote": "A beauty of a bygone era, Bidayatan was constructed by the finest of architects, of materials stronger than anything we know of today. No one knows why, or how it was built, but it has become the home of thousands following the Cataclysm.",
         "civilopediaText": [
             {
-                "text": "Chengshi is one of the few surviving cities of old, boasting a population of several hundred thousands, it one of the largest and greatest cities in the wasteland. "
+                "text": "Bidayatan is one of the few surviving cities of old, boasting a population of several hundred thousands, it one of the largest and greatest cities in the wasteland. "
             },
             {
-                "text": "Situated upon the vital chokepoint between Caesar's Legion and The Patriots, Seawall must juggle a balance of diplomacy and deterrence to ensure their independence."
+                "text": "Situated upon the vital chokepoint between Caesar's Legion and The Patriots, Bidayatan must juggle a balance of diplomacy and deterrence to ensure their independence."
 			}
 		]
 	},
         {
-		"name": "The Great Baolei",
+		"name": "The Impenetrable Fortress",
 		"isWonder": true,
-		"uniqueTo": "Chengshi",
-		"cityHealth": 150,
+		"uniqueTo": "Bidayatan",
+		"cityHealth": 50,
 		"cost": 1,
 		"culture": 20,
-                "citystrength": 45
-                "cityhealth": 50,
-		"specialistSlots": { "Engineer": 3 },
+		"specialistSlots": { "Engineer": 10 },
 		"uniques": [
 			"Provides [10] [Encrypted Data]",
 			"Provides [15] [Power]",
@@ -50,7 +48,7 @@
     {
         "name": "House Of The People",
         "replaces": "Council",
-        "uniqueTo": "Chengshi",
+        "uniqueTo": "Bidayatan",
         "cost": 1,
         "requiredTech": "Civil Service",
         "uniques": [
@@ -63,7 +61,7 @@
     },
   {
     "name": "Integrated Factories"
-    "UniqueTo": "Chengshi"
+    "UniqueTo": "Bidayatan"
     "cost": 3,
     "requiredTech": "Munitions",
     "production": 100,
@@ -71,7 +69,7 @@
   },
   {
     "name": "Fusion Plant" 
-    "UniqueTo": "Chengshi"
+    "UniqueTo": "Bidayatan"
     "Cost": 1,
     "maintainence": 10,
     "requiredTech": "Nuclear Fission",
