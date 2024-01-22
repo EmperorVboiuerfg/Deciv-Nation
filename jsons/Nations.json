@@ -8,9 +8,9 @@
 
 	{
 		//nations
-		"name": "Chengshi",
-		"leaderName": "The Benevolent One",
-		"adjective": ["Chengshi"],
+		"name": "Bidayatan",
+		"leaderName": "The Overlord",
+		"adjective": ["Bidayatanian"],
 		"startBias": ["River"],
 		"preferredVictoryType": "Diplomatic",
 
@@ -25,19 +25,19 @@
 		"neutralHello": "Greetings, have you come to trade??",
 		"hateHello": "What does this wretch want?",
 
-		"tradeRequest": "Chengshi is known for its many resources, natural or manufactured, yet we do not have everything we need. We wish to negotiate a trade.",
+		"tradeRequest": "Bidayatan is known for its many resources, natural or manufactured, yet we do not have everything we need. We wish to negotiate a trade.",
 
 		"outerColor": [34,52,52],
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Humanism",
-		"uniqueName": "Beacon In The Wastelands",
+		"uniqueName": "Mountain Fort",
 		"uniques": [ 
 			"Starts with [Constitution] adopted", 
 			"[+100]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>",
 			"[+999999999]% Culture cost of natural border growth [in all cities]",
-			"[-150]% City-state Influence degradation",
+			"Units ignore terrain costs when moving into any tile with Hills",
 		],
-		"cities": ["Chengshi"],
+		"cities": ["Bidayatan"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	}
 
