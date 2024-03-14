@@ -42,6 +42,7 @@
 			"[+4 Culture] [in this city] <after discovering [Computers]>",
 			"Can only be built [in capital]",
 		],
+	},
     {
         "name": "The Scourge",
         "isWonder": true,
