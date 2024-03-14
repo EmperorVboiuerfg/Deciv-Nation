@@ -54,7 +54,7 @@
 	"production": 15
         "uniques": [
             "Can only be built [in capital]",
-            "[+5 production] from every specialist [in this city]",
+            "[+5 Production] from every specialist [in this city]",
 	"Provides [5] [Weapons]",
         ],
         "quote": ".",
@@ -108,7 +108,7 @@
 	},
 	  {
     "name": "War Rooms"
-    "UniqueTo": "The Scourge"
+    "UniqueTo": "The Scourge",
     "cost": 3,
     "replaces": "Barracks",
     "production": 5,
