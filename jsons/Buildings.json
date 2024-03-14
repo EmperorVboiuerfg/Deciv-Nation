@@ -1,33 +1,33 @@
 [
     // Capital Uniques
     {
-        "name": "Bidayatan, City of Hope",
+        "name": "City of Hope",
         "isWonder": true,
-        "uniqueTo": "Bidayatan",
+        "uniqueTo": "Novum Mundi",
         "cost": 1,
         "citystrength": 10,
-        "cityhealth": 30,
-        "gold": 250,
-	"faith": 150,
+        "cityhealth": 10,
+        "gold": 30,
+	"faith": 50,
         "uniques": [
             "Can only be built [in capital]",
 	    "New [All] units start with [10000000] Experience [in all cities]",
             "[+5 Culture] from every specialist [in this city]",
         ],
-        "quote": "A beauty of a bygone era, Bidayatan was constructed by the finest of architects, of materials stronger than anything we know of today. No one knows why, or how it was built, but it has become the home of thousands following the Cataclysm.",
+        "quote": ".",
         "civilopediaText": [
             {
-                "text": "Bidayatan is one of the few surviving cities of old, boasting a population of several hundred thousands, it one of the largest and greatest cities in the wasteland. "
+                "text": "."
             },
             {
-                "text": "Situated upon the vital chokepoint between Caesar's Legion and The Patriots, Bidayatan must juggle a balance of diplomacy and deterrence to ensure their independence."
+                "text": "."
 			}
 		]
 	},
         {
-		"name": "The Impenetrable Fortress",
+		"name": "Beacon of Democracy",
 		"isWonder": true,
-		"uniqueTo": "Bidayatan",
+		"uniqueTo": "Novum Mundi",
 		"cityHealth": 50,
 		"cost": 1,
 		"culture": 20,
@@ -42,13 +42,37 @@
 			"[+4 Culture] [in this city] <after discovering [Computers]>",
 			"Can only be built [in capital]",
 		],
+    {
+        "name": "The Scourge",
+        "isWonder": true,
+        "uniqueTo": "The Scourge",
+        "cost": 1,
+        "citystrength": 10,
+        "cityhealth": 10,
+        "gold": 30,
+	"production": 15
+        "uniques": [
+            "Can only be built [in capital]",
+            "[+5 production] from every specialist [in this city]",
+	"Provides [5] [Weapons]",
+        ],
+        "quote": ".",
+        "civilopediaText": [
+            {
+                "text": "."
+            },
+            {
+                "text": "."
+			}
+		]
+	},
 	},
   
     // Normal Uniques
     {
         "name": "House Of The People",
         "replaces": "Council",
-        "uniqueTo": "Bidayatan",
+        "uniqueTo": "Novum Mundi",
         "cost": 1,
         "requiredTech": "Civil Service",
         "uniques": [
@@ -61,7 +85,7 @@
     },
   {
     "name": "Integrated Factories"
-    "UniqueTo": "Bidayatan"
+    "UniqueTo": "Novum Mundi"
     "cost": 3,
     "requiredTech": "Munitions",
     "production": 100,
@@ -69,7 +93,7 @@
   },
   {
     "name": "Fusion Plant" 
-    "UniqueTo": "Bidayatan"
+    "UniqueTo": "Novum Mundi"
     "Cost": 1,
     "maintainence": 10,
     "requiredTech": "Nuclear Fission",
@@ -82,5 +106,14 @@
 			"[+33]% Production when constructing [Missile] units [in this city]",
 			"Only available <in cities with a [Library]>"
 		]
-	}
+	},
+	  {
+    "name": "War Rooms"
+    "UniqueTo": "The Scourge"
+    "cost": 3,
+    "replaces": "Barracks",
+    "production": 5,
+    "uniques": ["New [Military] units start with [25] Experience [in this city]","Destroyed when the city is captured"]
+    "maintainence": 1,
+  },
 ]
