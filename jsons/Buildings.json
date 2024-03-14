@@ -56,6 +56,7 @@
             "Can only be built [in capital]",
             "[+5 Production] from every specialist [in this city]",
 	"Provides [5] [Weapons]",
+	"New [Military] units start with [25] Experience [in all cities]",
         ],
         "quote": ".",
         "civilopediaText": [
@@ -106,13 +107,4 @@
 			"Only available <in cities with a [Library]>"
 		]
 	},
-	  {
-    "name": "War Rooms"
-    "UniqueTo": "The Scourge",
-    "cost": 3,
-    "replaces": "Barracks",
-    "production": 5,
-    "uniques": ["New [Military] units start with [25] Experience [in this city]","Destroyed when the city is captured"]
-    "maintainence": 1,
-  },
 ]
