@@ -1,13 +1,13 @@
 [
     {
-        "name": "Bidayatan Land-Defense System",
-        "uniqueTo": "Bidayatan",
+        "name": "Tower of Babylon",
+        "uniqueTo": "Novum Mundi",
 		"unitType": "Siege",
-		"cost": 1,
+		"cost": 0,
 		"movement": 0,
-	        "range": 2,
-	        "strength": 30,
-	        "interceptRange": 4,
+	        "range": 4,
+	        "strength": 60,
+	        "interceptRange": 6,
 		"rangedStrength": 120,
 		"requiredTech": "Energy Weapons",
 		"hurryCostModifier": 200,
@@ -20,16 +20,43 @@
 		"attackSound": "bombing"
         },
 	{
-		"name": "Bidayatan Soldier",
+		"name": "Volunteer Soldier",
 		"unitType": "Scrapper",
-		"uniqueTo": "Bidayatan",
+		"uniqueTo": "Novum Mundi",
 		"replaces": "Soldier"
 		"movement": 2,
 		"strength": 40,
 		"cost": 25,
 		"hurryCostModifier": 20,
-		"uniques": ["All adjacent units heal [+15] HP when healing",
-			"All adjacent units heal [+15] HP when healing <in [Land] [Friendly Land] tiles>"]
+		"uniques": ["All adjacent units heal [+15] HP when healing",]
 		"promotions": ["Reconnaissance I","Skirmish"],
+	},
+		{
+		"name": "Assimilators",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Scourge",
+		"replaces": "Warhead Truck",
+		"movement": 2,
+		"strength": 100,
+		"cost": 100,
+		"hurryCostModifier": 20,
+		"uniques": [
+			"[-80]% Strength <when defending>",
+			"Self-destructs when attacking",
+			"May capture killed [All] units",
+	},
+			{
+		"name": "The Infested",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Scourge",
+		"replaces": "Soldier",
+		"movement": 2,
+		"strength": 30,
+		"cost": 100,
+		"hurryCostModifier": 20,
+		"uniques": [
+			"[+15] HP when healing",
+			"May capture killed [All] units"]
+	  	"promotions": ["Forage", "March"],
 	},
 ]
