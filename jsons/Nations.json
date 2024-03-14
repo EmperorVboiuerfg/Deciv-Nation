@@ -38,6 +38,40 @@
 		],
 		"cities": ["Novum Mundi"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
+	},
+		{
+		"name": "The Scourge",
+		"leaderName": "Hivemind",
+		"adjective": ["Scourge"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"tradeRequest": ".",
+
+		"outerColor": [0,0,0],
+		"innerColor": [117, 17, 17],
+		"uniqueName": "Assimilation",
+		"uniques": [ 
+			"Starts with [Supremacy] adopted",
+			"Starts with [Iron Working]",
+			"[+35]% Strength <for [All] units>",
+			"[-50]% Culture cost of natural border growth [in all cities]",
+			"[-100]% unhappiness from the number of cities",
+			"Earn [100]% of killed [All] unit's [Cost] as [Science]",
+			"Borrows city names from other civilizations in the game",
+		],
+		"cities": ["The Hive"],
+        "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	}
 
 ]
