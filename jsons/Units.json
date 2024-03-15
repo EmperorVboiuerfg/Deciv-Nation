@@ -36,8 +36,9 @@
 		"unitType": "Scrapper",
 		"uniqueTo": "The Scourge",
 		"replaces": "Warhead Truck",
+		"requiredTech": "Biology",
 		"movement": 2,
-		"strength": 100,
+		"strength": 75,
 		"cost": 100,
 		"hurryCostModifier": 20,
 		"uniques": [
@@ -51,8 +52,9 @@
 		"uniqueTo": "The Scourge",
 		"replaces": "Soldier",
 		"movement": 2,
-		"strength": 30,
+		"strength": 25,
 		"cost": 100,
+		"requiredTech": "Rifling",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"[+15] HP when healing",
