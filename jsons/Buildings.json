@@ -5,7 +5,7 @@
         "isWonder": true,
         "uniqueTo": "Novum Mundi",
         "cost": 1,
-        "citystrength": 10,
+        "citystrength": 20,
         "cityhealth": 10,
         "gold": 30,
 	"faith": 50,
@@ -50,13 +50,13 @@
         "cost": 1,
         "citystrength": 10,
         "cityhealth": 10,
-        "gold": 30,
+        "gold": 10,
 	"production": 15
         "uniques": [
             "Can only be built [in capital]",
-            "[+5 Production] from every specialist [in this city]",
+            "[+2 Production] from every specialist [in this city]",
 	"Provides [5] [Weapons]",
-	"New [Military] units start with [25] Experience [in all cities]",
+	"New [Military] units start with [15] Experience [in all cities]",
         ],
         "quote": ".",
         "civilopediaText": [
