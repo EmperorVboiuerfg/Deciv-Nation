@@ -64,10 +64,11 @@
 		"uniques": [ 
 			"Starts with [Supremacy] adopted",
 			"Starts with [Iron Working]",
+			"[-20]% Science [in all cities]",
 			"[+35]% Strength <for [All] units>",
 			"[-50]% Culture cost of natural border growth [in all cities]",
-			"[-100]% unhappiness from the number of cities",
-			"Earn [100]% of killed [All] unit's [Cost] as [Science]",
+			"[-80]% unhappiness from the number of cities",
+			"Earn [20]% of killed [All] unit's [Cost] as [Science]",
 			"Borrows city names from other civilizations in the game",
 		],
 		"cities": ["The Hive"],
