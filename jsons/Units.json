@@ -31,6 +31,18 @@
 		"uniques": ["All adjacent units heal [+15] HP when healing",]
 		"promotions": ["Reconnaissance I","Skirmish"],
 	},
+	{
+		"name": "Armed Settler",
+		"unitType": "Shooter",
+		"uniqueTo": "Novum Mundi",
+		"replaces": "Civilian Convoy"
+		"movement": 10,
+		"strength": 100,
+		"cost": 25,
+		"hurryCostModifier": 20,
+		"uniques": ["All adjacent units heal [+15] HP when healing","Founds a new city <by consuming this unit>",]
+		"promotions": ["Reconnaissance I","Skirmish"],
+	},
 		{
 		"name": "Assimilators",
 		"unitType": "Scrapper",
