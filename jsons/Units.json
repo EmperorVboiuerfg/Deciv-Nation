@@ -40,7 +40,7 @@
 		"strength": 100,
 		"cost": 25,
 		"hurryCostModifier": 20,
-		"uniques": ["All adjacent units heal [+15] HP when healing","Founds a new city <by consuming this unit>",]
+		"uniques": ["All adjacent units heal [+15] HP when healing","Founds a new city <by consuming this unit>"]
 		"promotions": ["Reconnaissance I","Skirmish"],
 	},
 		{
