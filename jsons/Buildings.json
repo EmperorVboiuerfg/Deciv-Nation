@@ -1,14 +1,14 @@
 [
     // Capital Uniques
     {
-        "name": "City of Hope",
+        "name": "The Hub of Trade",
         "isWonder": true,
-        "uniqueTo": "Novum Mundi",
+        "uniqueTo": "Primorskiy",
         "cost": 1,
-        "citystrength": 50,
-        "cityhealth": 50,
+        "citystrength": 10,
+        "cityhealth": 30,
 	"food": 8,
-        "gold": 50,
+        "gold": 20,
 	"faith": 50,
         "uniques": [
             "Can only be built [in capital]",
@@ -26,13 +26,13 @@
 		]
 	},
         {
-		"name": "Beacon of Democracy",
+		"name": "Great Forges",
 		"isWonder": true,
-		"uniqueTo": "Novum Mundi",
-		"cityHealth": 90,
+		"uniqueTo": "Primorskiy",
+		"cityHealth": 20,
 		"cost": 1,
 		"culture": 20,
-		"specialistSlots": { "Engineer": 14 },
+		"specialistSlots": { "Engineer": 10 },
 		"uniques": [
 			"Provides [10] [Encrypted Data]",
 			"Provides [25] [Power]",
@@ -47,9 +47,9 @@
 		],
 	},
     {
-        "name": "The Scourge",
+        "name": "All Consuming",
         "isWonder": true,
-        "uniqueTo": "The Scourge",
+        "uniqueTo": "The Swarm",
         "cost": 1,
         "citystrength": 10,
         "cityhealth": 10,
@@ -75,7 +75,7 @@
     {
         "name": "House Of The People",
         "replaces": "Council",
-        "uniqueTo": "Novum Mundi",
+        "uniqueTo": "Primorskiy",
         "cost": 1,
         "requiredTech": "Civil Service",
         "uniques": [
@@ -87,11 +87,11 @@
         ]
     },
   {
-    "name": "Integrated Factories"
-    "UniqueTo": "Novum Mundi"
+    "name": "Ration Stations"
+    "UniqueTo": "Primorskiy"
     "cost": 3,
-    "requiredTech": "Munitions",
-    "production": 100,
+    "requiredTech": "Secrets of the Past",
+    "uniques": [+2] 
     "maintainence": 3,
   },
   {
