@@ -9,20 +9,20 @@
 		"production": 6,
 		"science": 2,
 		"military": 8,
-		"priorities": {
-			"Adaptation": 10,
-			"Sovereignty": 30,
-			"Expansionism": 20,
-			"Supremacy": 30,
-			"Collectivism": 20,
-      "Will not build [Helicopter]",
+	"Will not build [Helicopter]",
       "Will not build [Ranged Water]",
       "Will not build [Armor]",
       "Will not build [Bomber]",
       "Will not build [Fighter]",
       "Will not build [Aircraft Carrier]",
       "Will not build [Missile]",
-      "Will not build [Submarine]"
+      "Will not build [Submarine]",
+		"priorities": {
+			"Adaptation": 10,
+			"Sovereignty": 30,
+			"Expansionism": 20,
+			"Supremacy": 30,
+			"Collectivism": 20
 		},
 		"warMongering": 10,
 		"civilopediaText": [
