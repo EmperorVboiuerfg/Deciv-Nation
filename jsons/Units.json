@@ -34,7 +34,7 @@
 		{
 		"name": "Assimilators",
 		"unitType": "Scrapper",
-		"uniqueTo": "Swarm",
+		"uniqueTo": "The Swarm",
 		"replaces": "Warhead Truck",
 		"requiredTech": "Biology",
 		"movement": 2,
@@ -49,7 +49,7 @@
 			{
 		"name": "The Infested",
 		"unitType": "Scrapper",
-		"uniqueTo": "Swarm",
+		"uniqueTo": "The Swarm",
 		"replaces": "Soldier",
 		"movement": 2,
 		"strength": 25,
@@ -58,22 +58,24 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"[+15] HP when healing",
-			"May capture killed [All] units"]
+			"May capture killed [All] units",
+		"[+33]% Strength <vs [Low Tech] units>"]
 	  	"promotions": ["Forage", "March"],
 	},
 		{
 		"name": "Floods",
 		"unitType": "Helicopter",
-		"uniqueTo": "Swarm",
-		"replaces": "Soldier",
-		"movement": 2,
-		"strength": 25,
+		"uniqueTo": "The Swarm",
+		"replaces": "Crossbowman",
+		"movement": 4,
+		"strength": 19,
 		"cost": 100,
-		"requiredTech": "Rifling",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"[+15] HP when healing",
-			"May capture killed [All] units"]
+			"May capture killed [All] units",
+		"[+33]% Strength <vs [Low Tech] units>",
+		"[+33]% Strength <vs [Wounded] units>"]
 	  	"promotions": ["Forage", "March"],
 	},
 ]
