@@ -1,7 +1,7 @@
 [
     {
         "name": "Zheleznyy Strazh",
-        "uniqueTo": "Primorsky",
+        "uniqueTo": "Primorskiy",
 		"unitType": "Siege",
 		"cost": 0,
 		"movement": 0,
@@ -20,33 +20,21 @@
 		"attackSound": "bombing"
         },
 	{
-		"name": "Volunteer Soldier",
+		"name": "Militsiya",
 		"unitType": "Scrapper",
-		"uniqueTo": "Novum Mundi",
+		"uniqueTo": "Primorskiy",
 		"replaces": "Soldier"
 		"movement": 2,
-		"strength": 40,
+		"strength": 35,
 		"cost": 25,
 		"hurryCostModifier": 20,
-		"uniques": ["All adjacent units heal [+15] HP when healing",]
-		"promotions": ["Reconnaissance I","Skirmish"],
-	},
-	{
-		"name": "Armed Settler",
-		"unitType": "Shooter",
-		"uniqueTo": "Novum Mundi",
-		"replaces": "Civilian Convoy"
-		"movement": 10,
-		"strength": 100,
-		"cost": 25,
-		"hurryCostModifier": 20,
-		"uniques": ["All adjacent units heal [+15] HP when healing","Founds a new city <by consuming this unit>", "May enter foreign tiles without open borders"]
+		"uniques": ["All adjacent units heal [+3] HP when healing", "[+45]% Strength decreasing with distance from the capital"]
 		"promotions": ["Reconnaissance I","Skirmish"],
 	},
 		{
 		"name": "Assimilators",
 		"unitType": "Scrapper",
-		"uniqueTo": "The Scourge",
+		"uniqueTo": "Swarm",
 		"replaces": "Warhead Truck",
 		"requiredTech": "Biology",
 		"movement": 2,
@@ -54,14 +42,29 @@
 		"cost": 100,
 		"hurryCostModifier": 20,
 		"uniques": [
-			"[-80]% Strength <when defending>",
+			"[-90]% Strength <when defending>",
 			"Self-destructs when attacking",
 			"May capture killed [All] units",]
 	},
 			{
 		"name": "The Infested",
 		"unitType": "Scrapper",
-		"uniqueTo": "The Scourge",
+		"uniqueTo": "Swarm",
+		"replaces": "Soldier",
+		"movement": 2,
+		"strength": 25,
+		"cost": 100,
+		"requiredTech": "Rifling",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"[+15] HP when healing",
+			"May capture killed [All] units"]
+	  	"promotions": ["Forage", "March"],
+	},
+		{
+		"name": "Floods",
+		"unitType": "Helicopter",
+		"uniqueTo": "Swarm",
 		"replaces": "Soldier",
 		"movement": 2,
 		"strength": 25,
