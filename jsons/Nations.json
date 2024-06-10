@@ -8,10 +8,10 @@
 
 	{
 		//nations
-		"name": "Novum Mundi",
+		"name": "Primorskiy",
 		"leaderName": "Representative Council",
-		"adjective": ["Citizens"],
-		"startBias": ["Coast"],
+		"adjective": ["Primorskiyans"],
+		"startBias": ["Coast","Tundra"],
 		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": ".",
@@ -27,23 +27,25 @@
 
 		"tradeRequest": ".",
 
-		"outerColor": [34,52,52],
+		"outerColor": [213, 49, 44],
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Humanism",
-		"uniqueName": "A Second Chance",
+		"uniqueName": "Hub of Trade",
 		"uniques": [ 
-			"Starts with [Constitution] adopted", 
-			"[+100]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>",
+			"Starts with [Monopoly] adopted", 
+			"[+33]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>",
 			"[+999999999]% Culture cost of natural border growth [in all cities]",
+			"[+20]% Great Person generation [in all cities]"
 		],
-		"cities": ["Novum Mundi"],
+		"cities": ["Primorskiy"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	},
 		{
-		"name": "The Scourge",
+		"name": "The Swarm",
 		"leaderName": "Hivemind",
-		"adjective": ["Scourge"],
+		"adjective": ["Swarm"],
 		"preferredVictoryType": "Domination",
+		"personality": "Swarm",
 
 		"startIntroPart1": ".",
 		"startIntroPart2": ".",
@@ -63,12 +65,11 @@
 		"uniqueName": "Assimilation",
 		"uniques": [ 
 			"Starts with [Supremacy] adopted",
-			"Starts with [Iron Working]",
-			"[-20]% Science [in all cities]",
-			"[+35]% Strength <for [All] units>",
+			"[-100]% Science [in all cities]",
+			"[+10]% Strength <for [All] units>",
 			"[-50]% Culture cost of natural border growth [in all cities]",
 			"[-80]% unhappiness from the number of cities",
-			"Earn [20]% of killed [All] unit's [Cost] as [Science]",
+			"Earn [10]% of killed [All] unit's [Cost] as [Science]",
 			"Borrows city names from other civilizations in the game",
 		],
 		"cities": ["The Hive"],
