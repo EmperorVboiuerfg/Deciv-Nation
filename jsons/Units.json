@@ -64,7 +64,7 @@
 	},
 		{
 		"name": "Floods",
-		"unitType": "Helicopter",
+		"unitType": "Shooter",
 		"uniqueTo": "The Swarm",
 		"replaces": "Crossbowman",
 		"movement": 4,
