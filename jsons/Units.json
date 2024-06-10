@@ -1,14 +1,14 @@
 [
     {
-        "name": "Tower of Babylon",
-        "uniqueTo": "Novum Mundi",
+        "name": "Zheleznyy Strazh",
+        "uniqueTo": "Primorsky",
 		"unitType": "Siege",
 		"cost": 0,
 		"movement": 0,
 	        "range": 4,
-	        "strength": 60,
+	        "strength": 30,
 	        "interceptRange": 6,
-		"rangedStrength": 120,
+		"rangedStrength": 80,
 		"requiredTech": "Energy Weapons",
 		"hurryCostModifier": 200,
 		"uniques": [
