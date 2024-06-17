@@ -42,6 +42,16 @@
 		"uniques": ["Can move immediately once bought", "Earn [50]% of killed [Military] unit's [Strength] as [Gold]", "Unbuildable"]
 		"promotions": ["Shock","Skirmish"],
 	},
+			{
+		"name": "Merchant Ships",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Balticin Union",
+		"movement": 6,
+		"strength": 35,
+		"cost": 1,
+		"hurryCostModifier": 20,
+		"uniques": ["Can move immediately once bought", "Can undertake a trade mission with City-State, giving a large sum of gold and [amount] Influence", "May enter foreign tiles without open borders", "Cannot Attack"]
+	},
 		{
 		"name": "Assimilators",
 		"unitType": "Scrapper",
