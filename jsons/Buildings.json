@@ -14,6 +14,7 @@
             "Can only be built [in capital]",
 	    "New [All] units start with [10000000] Experience [in all cities]",
             "[+5 Culture] from every specialist [in this city]",
+	    "Provides [1] [Fabrics]"
         ],
         "quote": ".",
         "civilopediaText": [
@@ -73,7 +74,7 @@
     {
         "name": "House Of The People",
         "replaces": "Council",
-        "uniqueTo": "Primorskiy",
+        "uniqueTo": "Balticin Union",
         "cost": 1,
         "requiredTech": "Civil Service",
         "uniques": [
@@ -86,7 +87,7 @@
     },
   {
     "name": "Ration Stations"
-    "UniqueTo": "Primorskiy"
+    "UniqueTo": "Balticin Union"
     "cost": 3,
     "requiredTech": "Secrets of the Past",
     "uniques": ["[-2 Gold, +3 Happiness, +3 Culture, +3 Science, -1 Food] per [4] population [in all cities]",
@@ -95,7 +96,7 @@
   },
   {
     "name": "Wave Harnessers" 
-    "UniqueTo": "Primorskiy"
+    "UniqueTo": "Balticin Union"
     "Cost": 1,
     "science": 3,
     "production": 3,
@@ -108,6 +109,42 @@
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
 			"Only available <in cities with a [Library]>",
 	    "Provides [1] [Salt]"
+		]
+	},
+	  {
+    "name": "Artisan Guild Houses" 
+    "UniqueTo": "Balticin Union"
+    "Cost": 1,
+    "science": 1,
+    "production": 1,
+    "food": 1,
+    "culture": 1,
+    "happiness": 1,
+    "maintainence": 10,
+    "requiredTech": "Education",
+    "specialistSlots": { "Engineer": 1, "Administrator": 1, "Scientist": 1, "Farmer": 1, "Merchant": 1},
+    "uniques": [
+"[+1 Gold, +2 Production] from every specialist [in all cities]"
+		]
+	},
+		  {
+    "name": "Balticin Trade Harbours" 
+    "UniqueTo": "Balticin Union"
+    "Cost": 1,
+    "production": 1,
+    "gold": 1,
+    "maintainence": 10,
+    "requiredTech": "Navigation",
+    "replaces": "Harbor",
+    "specialistSlots": {"Merchant": 2},
+    "uniques": [
+"[+2 Gold, +2 Production] from each Trade Route",
+"[+10]% Production when constructing [Water] units [in this city]",
+"Connects trade routes over water",
+"Must be next to [Coast]",
+"[+20]% [Culture] from Trade Routes",
+"[+20]% [Gold] from Trade Routes"
+	    
 		]
 	},
 ]
