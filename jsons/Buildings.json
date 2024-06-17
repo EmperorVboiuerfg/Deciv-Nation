@@ -3,7 +3,7 @@
     {
         "name": "The Hub of Trade",
         "isWonder": true,
-        "uniqueTo": "Baltacin Union",
+        "uniqueTo": "Balticin Union",
         "cost": 1,
         "citystrength": 10,
         "cityhealth": 30,
@@ -29,7 +29,7 @@
         {
 		"name": "Great Forges",
 		"isWonder": true,
-		"uniqueTo": "Baltacin Union",
+		"uniqueTo": "Balticin Union",
 		"cityHealth": 20,
 		"cost": 1,
 		"culture": 20,
