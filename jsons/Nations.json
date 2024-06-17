@@ -8,9 +8,9 @@
 
 	{
 		//nations
-		"name": "Primorskiy",
+		"name": "Baltacin Union",
 		"leaderName": "Representative Council",
-		"adjective": ["Primorskiyans"],
+		"adjective": ["Baltacin"],
 		"startBias": ["Coast","Tundra"],
 		"preferredVictoryType": "Diplomatic",
 
@@ -30,14 +30,14 @@
 		"outerColor": [213, 49, 44],
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Humanism",
-		"uniqueName": "Hub of Trade",
+		"uniqueName": "Mercantile City-States",
 		"uniques": [ 
 			"Starts with [Monopoly] adopted", 
 			"[+33]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>",
 			"[+999999999]% Culture cost of natural border growth [in all cities]",
 			"[+20]% Great Person generation [in all cities]"
 		],
-		"cities": ["Primorskiy"],
+		"cities": ["Primorskiy","Telaniskiy","Hellanskiy"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	},
 		{
