@@ -1,35 +1,46 @@
 [
     {
-        "name": "Zheleznyy Strazh",
-        "uniqueTo": "Primorskiy",
-		"unitType": "Siege",
+        "name": "Balticin Gunship",
+        "uniqueTo": "Balticin Union",
+		"unitType": "Helicopter",
 		"cost": 0,
-		"movement": 0,
+		"movement": 2,
 	        "range": 4,
-	        "strength": 30,
+	        "strength": 60,
 	        "interceptRange": 6,
-		"rangedStrength": 80,
+		"rangedStrength": 100,
 		"requiredTech": "Energy Weapons",
 		"hurryCostModifier": 200,
 		"uniques": [
             "Consumes [3] [Weapons]",
-	    "[100]% chance to intercept air attacks",
-            "All adjacent units heal [+5] HP when healing",
-			"All adjacent units heal [+10] HP when healing <in [Land] [Friendly Land] tiles>", "[+150]% Strength <when defending>"],
+	    "[90]% chance to intercept air attacks",
+            "May withdraw before melee ([100]%)",
+	"Only available <if [Aerospace Facility] is constructed>",
+	"Ranged attacks may be performed over obstacles"]
 	        "promotions": ["[Integrated Defense] ability", "Gas Mask", "Sentry", "Artillery", "Chemical Weapons", "Thermoptic Camouflage"],
-		"attackSound": "bombing"
         },
 	{
 		"name": "Militsiya",
 		"unitType": "Scrapper",
-		"uniqueTo": "Primorskiy",
+		"uniqueTo": "Balticin Union",
 		"replaces": "Soldier"
 		"movement": 2,
-		"strength": 35,
+		"strength": 20,
 		"cost": 25,
 		"hurryCostModifier": 20,
 		"uniques": ["All adjacent units heal [+3] HP when healing", "[+45]% Strength decreasing with distance from the capital"]
 		"promotions": ["Reconnaissance I","Skirmish"],
+	},
+		{
+		"name": "Mercenary Infantry",
+		"unitType": "Scrapper",
+		"uniqueTo": "Balticin Union",
+		"movement": 2,
+		"strength": 40,
+		"cost": 25,
+		"hurryCostModifier": 20,
+		"uniques": ["Can move immediately once bought", "Earn [50]% of killed [Military] unit's [Strength] as [Gold]", "Unbuildable"]
+		"promotions": ["Shock","Skirmish"],
 	},
 		{
 		"name": "Assimilators",
