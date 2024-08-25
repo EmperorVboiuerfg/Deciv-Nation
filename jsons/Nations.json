@@ -37,7 +37,7 @@
 			"[+999999999]% Culture cost of natural border growth [in all cities]",
 			"[+20]% Great Person generation [in all cities]"
 		],
-		"cities": ["Primorskiy","Telaniskiy","Hellanskiy"],
+		"cities": ["Gibraltar","Ceuta"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	},
 		{
