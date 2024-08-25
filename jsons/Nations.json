@@ -8,10 +8,10 @@
 
 	{
 		//nations
-		"name": "Balticin Union",
+		"name": "Heruculean Union",
 		"leaderName": "Representative Council",
-		"adjective": ["Baltacin"],
-		"startBias": ["Coast","Tundra"],
+		"adjective": ["Heruclean"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": ".",
