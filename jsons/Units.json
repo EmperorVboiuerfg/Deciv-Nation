@@ -32,14 +32,14 @@
 		"promotions": ["Reconnaissance I","Skirmish"],
 	},
 		{
-		"name": "Mercenary Infantry",
+		"name": "Afrikani Gunslingers",
 		"unitType": "Scrapper",
-		"uniqueTo": "Balticin Union",
+		"uniqueTo": "Heruclean Union",
 		"movement": 2,
 		"strength": 40,
 		"cost": 25,
 		"hurryCostModifier": 20,
-		"uniques": ["Can move immediately once bought", "Earn [50]% of killed [Military] unit's [Strength] as [Gold]", "Unbuildable"]
+		"uniques": ["Can move immediately once bought", "Earn [50]% of killed [Military] unit's [Strength] as [Gold]"]
 		"promotions": ["Shock","Skirmish"],
 	},
 			{
