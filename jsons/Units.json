@@ -17,10 +17,10 @@
 		"uniqueTo": "Heruculean Union",
 		"movement": 3,
 		"strength": 20,
+		"rangedStrength": 35,
 		"cost": 25,
 		"hurryCostModifier": 20,
-		"promotions": "[Afrikani] ability",
-		"uniques": ["Can move immediately once bought", "Earn [50]% of killed [Military] unit's [Strength] as [Gold]"]
+		"uniques": ["Can move immediately once bought", "Earn [50]% of killed [Military] unit's [Strength] as [Gold]", "[1] additional attacks per turn"]
 		"promotions": ["Shock","Skirmish"],
 	},
 			{
@@ -31,9 +31,7 @@
 		"strength": 95,
 		"cost": 25,
 		"hurryCostModifier": 20,
-		"promotions": "
-		"uniques": ["Limited to [1] per Civilization","Prevents spreading of religion to the city it is next to","Eliminates combat penalty for attacking over a river","No defensive terrain bonus","No movement cost to pillage"]
-		"promotions": ["Shock","Skirmish"],
+		"uniques": ["Limited to [1] per Civilization","Prevents spreading of religion to the city it is next to","Eliminates combat penalty for attacking over a river","No defensive terrain bonus","No movement cost to pillage","[+40]% Strength <when defending>","[-30]% Strength <when attacking>",]
 	},
 			{
 		"name": "Merchant Ships",
