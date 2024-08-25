@@ -14,7 +14,8 @@
             "Can only be built [in capital]",
 	    "New [All] units start with [10000000] Experience [in all cities]",
             "[+5 Culture] from every specialist [in this city]",
-	    "Provides [1] [Fabrics]"
+	    "Provides [1] [Fabrics]",
+	"[-150]% enemy spy effectiveness [in all cities]"
         ],
         "quote": ".",
         "civilopediaText": [
