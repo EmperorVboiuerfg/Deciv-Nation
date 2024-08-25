@@ -3,7 +3,7 @@
     {
         "name": "The Hub of Trade",
         "isWonder": true,
-        "uniqueTo": "Balticin Union",
+        "uniqueTo": "Heruculean Union",
         "cost": 1,
         "citystrength": 10,
         "cityhealth": 30,
@@ -27,16 +27,16 @@
 		]
 	},
         {
-		"name": "Great Forges",
+		"name": "Heruculean Forges",
 		"isWonder": true,
-		"uniqueTo": "Balticin Union",
+		"uniqueTo": "Heruculean Union",
 		"cityHealth": 20,
 		"cost": 1,
 		"culture": 20,
 		"specialistSlots": { "Engineer": 10 },
 		"uniques": [
 			"Provides [10] [Encrypted Data]",
-			"Provides [75] [Power]",
+			"Provides [10] [Power]",
 			"Provides [15] [Oil]",
 			"Provides [15] [Weapons]",
 			"Provides [15] [Uranium]",
@@ -74,7 +74,7 @@
     {
         "name": "House Of The People",
         "replaces": "Council",
-        "uniqueTo": "Balticin Union",
+        "uniqueTo": "Heruculean Union",
         "cost": 1,
         "requiredTech": "Civil Service",
         "uniques": [
@@ -87,7 +87,7 @@
     },
   {
     "name": "Ration Stations"
-    "UniqueTo": "Balticin Union"
+    "UniqueTo": "Heruculean Union"
     "cost": 3,
     "requiredTech": "Secrets of the Past",
     "uniques": ["[-2 Gold, +3 Happiness, +3 Culture, +3 Science, -1 Food] per [4] population [in all cities]",
@@ -96,7 +96,7 @@
   },
   {
     "name": "Wave Harnessers" 
-    "UniqueTo": "Balticin Union"
+    "UniqueTo": "Heruculean Union"
     "Cost": 1,
     "science": 3,
     "production": 3,
@@ -113,7 +113,7 @@
 	},
 	  {
     "name": "Artisan Guild Houses" 
-    "UniqueTo": "Balticin Union"
+    "UniqueTo": "Heruculean Union"
     "Cost": 1,
     "science": 1,
     "production": 1,
@@ -128,8 +128,8 @@
 		]
 	},
 		  {
-    "name": "Balticin Trade Harbours" 
-    "UniqueTo": "Balticin Union"
+    "name": "Strait Trade Harbours" 
+    "UniqueTo": "Heruculean Union"
     "Cost": 1,
     "production": 1,
     "gold": 1,
@@ -143,7 +143,7 @@
 "Connects trade routes over water",
 "Must be next to [Coast]",
 "[+20]% [Culture] from Trade Routes",
-"[+20]% [Gold] from Trade Routes"
+"[+40]% [Gold] from Trade Routes"
 	    
 		]
 	},
