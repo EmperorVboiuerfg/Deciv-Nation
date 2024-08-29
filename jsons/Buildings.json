@@ -11,7 +11,7 @@
         "gold": 20,
 	"faith": 50,
         "uniques": [
-            "Can only be built [in capital]",
+            "Can only be built <in [Capital] cities>",
 	    "New [All] units start with [10000000] Experience [in all cities]",
             "[+5 Culture] from every specialist [in this city]",
 	    "Provides [1] [Fabrics]",
@@ -43,7 +43,7 @@
 			"Provides [15] [Uranium]",
 			"Provides [15] [Aluminum]",
 			"[+4 Culture] [in this city] <after discovering [Computers]>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 		],
 	},
     {
@@ -56,7 +56,7 @@
         "gold": 10,
 	"production": 15
         "uniques": [
-            "Can only be built [in capital]",
+            "Can only be built <in [Capital] cities>",
             "[+2 Production] from every specialist [in this city]",
 	"Provides [5] [Weapons]",
 	"New [Military] units start with [15] Experience [in all cities]",
@@ -80,9 +80,9 @@
         "requiredTech": "Civil Service",
         "uniques": [
             "[+1 Culture] per [2] population [in all cities]",
-            "[-50]% unhappiness from [Population] [in all cities connected to capital]",
+            "[-50]% Unhappiness from [Population] [in all cities connected to capital]",
             "Only available <if [Search for Survivors] is constructed>",
-            "Can only be built [in capital]",
+            "Can only be built <in [Capital] cities>",
             "Destroyed when the city is captured"
         ]
     },
