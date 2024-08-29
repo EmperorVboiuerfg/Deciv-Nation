@@ -80,7 +80,7 @@
         "requiredTech": "Civil Service",
         "uniques": [
             "[+1 Culture] per [2] population [in all cities]",
-            "[-50]% unhappiness from [Population] [in all cities connected to capital]",
+            "[-50]% Unhappiness from [Population] [in all cities connected to capital]",
             "Only available <if [Search for Survivors] is constructed>",
             "Can only be built <in [Capital] cities>",
             "Destroyed when the city is captured"
