@@ -41,7 +41,7 @@
 		"strength": 35,
 		"cost": 1,
 		"hurryCostModifier": 20,
-		"uniques": ["Can move immediately once bought", "Can undertake a trade mission with City-State, giving a large sum of gold and [amount] Influence", "May enter foreign tiles without open borders", "Cannot Attack"]
+		"uniques": ["Can move immediately once bought", "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", "May enter foreign tiles without open borders", "Cannot Attack"]
 	},
 		{
 		"name": "Assimilators",
