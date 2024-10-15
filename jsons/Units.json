@@ -1,20 +1,21 @@
 [
 	{
-		"name": "Gibraltarin Footmen",
+		"name": "Akrites",
 		"unitType": "Scrapper",
-		"uniqueTo": "Heruculean Union",
+		"uniqueTo": "New Constantinople",
 		"replaces": "Soldier"
 		"movement": 2,
 		"strength": 43,
+		"requiredTech": "The Wheel",
 		"cost": 25,
 		"hurryCostModifier": 20,
 		"uniques": ["All adjacent units heal [+3] HP when healing", "[+45]% Strength decreasing with distance from the capital"]
 		"promotions": ["Reconnaissance I"],
 	},
 		{
-		"name": "Afrikani Gunslingers",
+		"name": "Thracian Gunmen",
 		"unitType": "Shooter",
-		"uniqueTo": "Heruculean Union",
+		"uniqueTo": "New Constantinople",
 		"movement": 3,
 		"strength": 20,
 		"rangedStrength": 35,
@@ -24,24 +25,49 @@
 		"promotions": ["Shock","Skirmish"],
 	},
 			{
-		"name": "Pillar of Hercules",
+		"name": "Cataphracts",
 		"unitType": "Armor",
-		"uniqueTo": "Heruculean Union",
-		"movement": 2,
-		"strength": 95,
+		"uniqueTo": "New Constantinople",
+		"movement": 3,
+		"strength": 87,
 		"cost": 25,
+		"requiredTech": "Advanced Materials",
 		"hurryCostModifier": 20,
-		"uniques": ["Limited to [1] per Civilization","Prevents spreading of religion to the city it is next to","Eliminates combat penalty for attacking over a river","No defensive terrain bonus","No movement cost to pillage","[+40]% Strength <when defending>","[-30]% Strength <when attacking>",]
+		"uniques": [			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit",
+		       "No movement cost to pillage"]
 	},
 			{
 		"name": "Merchant Ships",
 		"unitType": "Ranged Water",
-		"uniqueTo": "Heruculean Union",
+		"uniqueTo": "New Constantinople",
 		"movement": 6,
 		"strength": 35,
 		"cost": 1,
 		"hurryCostModifier": 20,
 		"uniques": ["Can move immediately once bought", "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence", "May enter foreign tiles without open borders", "Cannot attack"]
+	},
+				{
+		"name": "Koursores",
+		"unitType": "Shooter",
+		"uniqueTo": "New Constantinople",
+		"movement": 5,
+		"strength": 25,
+		"cost": 25,
+		"requiredTech": "Rifling",
+		"hurryCostModifier": 20,
+		"uniques": [			
+			"Personnel",
+			"Mounted",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Never appears as a Barbarian unit",
+		       "No movement cost to pillage"]
 	},
 		{
 		"name": "Assimilators",
