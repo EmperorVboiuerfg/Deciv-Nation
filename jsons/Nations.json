@@ -8,9 +8,9 @@
 
 	{
 		//nations
-		"name": "Heruculean Union",
+		"name": "New Constantinople",
 		"leaderName": "Representative Council",
-		"adjective": ["Heruclean"],
+		"adjective": ["Constantinopolitan"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 
@@ -30,14 +30,14 @@
 		"outerColor": [213, 49, 44],
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Capitalism",
-		"uniqueName": "Mercantile City-States",
+		"uniqueName": "Bastion of Trade and Culture",
 		"uniques": [ 
 			"Starts with [Monopoly] adopted", 
 			"[+33]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>",
 			"[+999999999]% Culture cost of natural border growth [in all cities]",
 			"[+20]% Great Person generation [in all cities]"
 		],
-		"cities": ["Gibraltar","Ceuta"],
+		"cities": ["New Constantinople"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	},
 		{
