@@ -8,9 +8,9 @@
 
 	{
 		//nations
-		"name": "New Constantinople",
+		"name": "Entrepot State",
 		"leaderName": "Representative Council",
-		"adjective": ["Constantinopolitan"],
+		"adjective": ["Entrepotolian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 
@@ -30,14 +30,13 @@
 		"outerColor": [213, 49, 44],
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Capitalism",
-		"uniqueName": "Bastion of Trade and Culture",
+		"uniqueName": "Mercantilism",
 		"uniques": [ 
 			"Starts with [Monopoly] adopted", 
-			"[+33]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>",
 			"[+999999999]% Culture cost of natural border growth [in all cities]",
 			"[+20]% Great Person generation [in all cities]"
 		],
-		"cities": ["New Constantinople"],
+		"cities": ["Entrepot"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	},
 		{
