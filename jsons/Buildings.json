@@ -6,14 +6,14 @@
         "uniqueTo": "Entrepot",
         "cost": 1,
         "citystrength": 10,
-        "cityhealth": 30,
-	"food": 8,
+        "cityhealth": 10,
+	"food": 3,
         "gold": 20,
 	"faith": 50,
         "uniques": [
             "Can only be built <in [Capital] cities>",
 	    "New [All] units start with [10000000] Experience [in all cities]",
-            "[+5 Culture] from every specialist [in this city]",
+            "[+1 Culture] from every specialist [in this city]",
 	    "Provides [1] [Fabrics]",
         ],
         "quote": ".",
@@ -27,16 +27,16 @@
 		]
 	},
         {
-		"name": "Walls of Constantinople",
+		"name": "Ancient Harbor",
 		"isWonder": true,
-		"uniqueTo": "New Constantinople",
+		"uniqueTo": "Entrepot",
 		"cityHealth": 20,
 		"cost": 1,
-		"culture": 10,
-		"specialistSlots": { "Engineer": 10 },
+		"culture": 3,
+		"specialistSlots": { "Engineer": 5 },
 		"uniques": [
 			// "Provides [2] [Encrypted Data]",
-			// "Provides [10] [Power]",
+			// "Provides [20] [Power]",
 			// "Provides [3] [Oil]",
 			// "Provides [3] [Weapons]",
 			// "Provides [2] [Uranium]",
@@ -74,7 +74,7 @@
     {
         "name": "House Of The People",
         "replaces": "Congress",
-        "uniqueTo": "New Constantinople",
+        "uniqueTo": "Entrepot",
         "cost": 1,
         "requiredTech": "Civil Service",
         "uniques": [
@@ -90,7 +90,7 @@
     },
   {
     "name": "Ration Stations"
-    "uniqueTo": "New Constantinople"
+    "uniqueTo": "Entrepot"
     "cost": 3,
     "requiredTech": "Secrets of the Past",
     "uniques": ["[-2 Gold, +2 Happiness, +2 Culture, +2 Science, -1 Food] per [4] population [in all cities]",
@@ -99,7 +99,7 @@
   },
   {
     "name": "Wave Harnessers" 
-    "uniqueTo": "New Constantinople"
+    "uniqueTo": "Entrepot"
     "Cost": 1,
     "science": 2,
     "maintainence": 10,
@@ -107,14 +107,14 @@
     "specialistSlots": { "Engineer": 3 },
     "uniques": [
       "Consumes [1] [Aluminum]",
-			"Provides [12] [Power]",
+			"Provides [3] [Power]",
 			"Only available <in cities with a [Library]>",
 	    "Provides [1] [Salt]"
 		]
 	},
 	  {
     "name": "Artisan Guild Houses" 
-    "uniqueTo": "New Constantinople"
+    "uniqueTo": "Entrepot"
     "Cost": 1,
     "science": 1,
     "production": 1,
@@ -129,18 +129,19 @@
 		]
 	},
 		  {
-    "name": "Strait Trade Harbours" 
-    "uniqueTo": "New Constantinople"
+    "name": "Trade Regions" 
+    "uniqueTo": "Entrepot"
     "Cost": 1,
     "production": 1,
     "gold": 1,
     "maintainence": 10,
     "requiredTech": "Navigation",
     "replaces": "Harbor",
-    "specialistSlots": {"Merchant": 2},
+    "specialistSlots": {"Merchant": 4},
     "uniques": [
-"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+"[+2 Production, +1 Gold] from [Water resource] tiles [in this city]",
 "[+10]% Production when constructing [Water] units [in this city]",
+"
 "Connects trade routes over water",
 "Must be next to [Coast]",
 	    
