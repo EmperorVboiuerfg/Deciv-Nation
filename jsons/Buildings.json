@@ -3,7 +3,7 @@
     {
         "name": "The Hub of Trade",
         "isWonder": true,
-        "uniqueTo": "New Constantinople",
+        "uniqueTo": "Entrepot",
         "cost": 1,
         "citystrength": 10,
         "cityhealth": 30,
