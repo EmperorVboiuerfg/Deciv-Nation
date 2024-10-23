@@ -8,7 +8,7 @@
 
 	{
 		//nations
-		"name": "Entrepot State",
+		"name": "Entrepot",
 		"leaderName": "Representative Council",
 		"adjective": ["Entrepotolian"],
 		"startBias": ["Coast"],
