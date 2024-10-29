@@ -9,7 +9,7 @@
         "cityhealth": 10,
 	"food": 3,
         "gold": 20,
-	"faith": 50,
+	"faith": 2000,
         "uniques": [
             "Can only be built <in [Capital] cities>",
 	    "New [All] units start with [10000000] Experience [in all cities]",
