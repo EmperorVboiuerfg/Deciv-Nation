@@ -8,6 +8,7 @@
         "citystrength": 10,
         "cityhealth": 10,
 	"food": 3,
+	"science": 10,
         "gold": 20,
 	"faith": 50,
         "uniques": [
