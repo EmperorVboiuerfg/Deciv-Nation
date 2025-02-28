@@ -27,8 +27,8 @@
 
 		"tradeRequest": ".",
 
-		"outerColor": [213, 49, 44],
-		"innerColor": [255, 255, 255],
+		"outerColor": [205,127,50],
+		"innerColor": [110,77,37],
 		"favoredReligion": "Capitalism",
 		"uniqueName": "Mercantilism",
 		"uniques": [ 
