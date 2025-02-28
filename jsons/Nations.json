@@ -8,9 +8,9 @@
 
 	{
 		//nations
-		"name": "Entrepot",
+		"name": "Naruinach Republic",
 		"leaderName": "Representative Council",
-		"adjective": ["Entrepotolian"],
+		"adjective": ["Naruinachian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 
@@ -36,7 +36,7 @@
 			"[+999999999]% Culture cost of natural border growth [in all cities]",
 			"[+20]% Great Person generation [in all cities]"
 		],
-		"cities": ["Entrepot"],
+		"cities": ["Naruinach"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	},
 		{
