@@ -2,7 +2,7 @@
 	{
 		"name": "Men At Arms",
 		"unitType": "Scrapper",
-		"uniqueTo": "Entrepot",
+		"uniqueTo": "Naruinach Republic",
 		"replaces": "Soldier"
 		"movement": 2,
 		"strength": 38,
@@ -15,7 +15,7 @@
 		{
 		"name": "Light Gunmen",
 		"unitType": "Shooter",
-		"uniqueTo": "Entrepot",
+		"uniqueTo": "Naruinach Republic",
 		"movement": 3,
 		"strength": 20,
 		"rangedStrength": 35,
@@ -27,7 +27,7 @@
 			{
 		"name": "Mounted Mercenaries",
 		"unitType": "Scrapper",
-		"uniqueTo": "Entrepot",
+		"uniqueTo": "Naruinach Republic",
 		"movement": 20,
 		"strength": 400,
 		"cost": 25,
@@ -42,7 +42,7 @@
 			{
 		"name": "Merchant Ships",
 		"unitType": "Ranged Water",
-		"uniqueTo": "Entrepot",
+		"uniqueTo": "Naruinach Republic",
 		"movement": 6,
 		"strength": 35,
 		"cost": 1,
@@ -52,7 +52,7 @@
 				{
 		"name": "Mercenary Gunmen",
 		"unitType": "Shooter",
-		"uniqueTo": "Entrepot",
+		"uniqueTo": "Naruinach Republic",
 		"movement": 3,
 		"strength": 43,
 		"rangedStrength": 38,
