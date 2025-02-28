@@ -3,7 +3,7 @@
     {
         "name": "The Hub of Trade",
         "isWonder": true,
-        "uniqueTo": "Entrepot",
+        "uniqueTo": "Naruinach Republic",
         "cost": 1,
         "citystrength": 10,
         "cityhealth": 10,
@@ -30,7 +30,7 @@
         {
 		"name": "Ancient Harbor",
 		"isWonder": true,
-		"uniqueTo": "Entrepot",
+		"uniqueTo": "Naruinach Republic",
 		"cityHealth": 20,
 		"cost": 1,
 		"culture": 3,
@@ -75,7 +75,7 @@
     {
         "name": "House Of The People",
         "replaces": "Congress",
-        "uniqueTo": "Entrepot",
+        "uniqueTo": "Naruinach Republic",
         "cost": 1,
         "requiredTech": "Civil Service",
         "uniques": [
@@ -91,7 +91,7 @@
     },
   {
     "name": "Ration Stations"
-    "uniqueTo": "Entrepot"
+    "uniqueTo": "Naruinach Republic"
     "cost": 3,
     "requiredTech": "Secrets of the Past",
     "uniques": ["[-2 Gold, +2 Happiness, +2 Culture, +2 Science, -1 Food] per [4] population [in all cities]",
@@ -100,7 +100,7 @@
   },
   {
     "name": "Wave Harnessers" 
-    "uniqueTo": "Entrepot"
+    "uniqueTo": "Naruinach Republic"
     "Cost": 1,
     "science": 2,
     "maintainence": 10,
@@ -115,7 +115,7 @@
 	},
 	  {
     "name": "Artisan Guild Houses" 
-    "uniqueTo": "Entrepot"
+    "uniqueTo": "Naruinach Republic"
     "Cost": 1,
     "science": 1,
     "production": 1,
@@ -131,7 +131,7 @@
 	},
 		  {
     "name": "Trade Regions" 
-    "uniqueTo": "Entrepot"
+    "uniqueTo": "Naruinach Republic"
     "Cost": 1,
     "production": 1,
     "gold": 1,
