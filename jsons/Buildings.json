@@ -13,7 +13,7 @@
 	"faith": 50,
         "uniques": [
             "Can only be built <in [Capital] cities>",
-	    "New [All] units start with [10000000] Experience [in all cities]",
+	    "New [Military] units start with [1500000000] XP [in all cities]",
             "[+1 Culture] from every specialist [in this city]",
 	    "Provides [1] [Fabrics]",
         ],
