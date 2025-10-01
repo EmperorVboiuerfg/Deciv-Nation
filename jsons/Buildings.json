@@ -3,7 +3,7 @@
     {
         "name": "The Hub of Trade",
         "isWonder": true,
-        "uniqueTo": "Naruinach Republic",
+        "uniqueTo": "Daehan Federation",
         "cost": 1,
         "citystrength": 10,
         "cityhealth": 10,
@@ -30,7 +30,7 @@
         {
 		"name": "Ancient Harbor",
 		"isWonder": true,
-		"uniqueTo": "Naruinach Republic",
+		"uniqueTo": "Daehan Federation",
 		"cityHealth": 20,
 		"cost": 1,
 		"culture": 3,
@@ -75,7 +75,7 @@
     {
         "name": "House Of The People",
         "replaces": "Congress",
-        "uniqueTo": "Naruinach Republic",
+        "uniqueTo": "Daehan Federation",
         "cost": 1,
         "requiredTech": "Civil Service",
         "uniques": [
@@ -100,7 +100,7 @@
   },
   {
     "name": "Wave Harnessers" 
-    "uniqueTo": "Naruinach Republic"
+    "uniqueTo": "Daehan Federation"
     "Cost": 1,
     "science": 2,
     "maintainence": 10,
@@ -114,8 +114,8 @@
 		]
 	},
 	  {
-    "name": "Artisan Guild Houses" 
-    "uniqueTo": "Naruinach Republic"
+    "name": "Communes" 
+    "uniqueTo": "Daehan Federation"
     "Cost": 1,
     "science": 1,
     "production": 1,
@@ -130,8 +130,8 @@
 		]
 	},
 		  {
-    "name": "Trade Regions" 
-    "uniqueTo": "Naruinach Republic"
+    "name": "Free Trade Regions" 
+    "uniqueTo": "Daehan Federation"
     "Cost": 1,
     "production": 1,
     "gold": 1,
@@ -142,7 +142,8 @@
     "uniques": [
 "[+2 Production, +1 Gold] from [Water resource] tiles [in this city]",
 "[+10]% Production when constructing [Water] units [in this city]",
-"[+10]% Great Person generation [in this city]",
+"[+40]% [Gold] from Trade Routes",
+"[+10]% [Culture] from Trade Routes",
 "Connects trade routes over water",
 "Must be next to [Coast]",
 	    
