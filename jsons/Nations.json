@@ -8,9 +8,9 @@
 
 	{
 		//nations
-		"name": "Naruinach Republic",
+		"name": "Daehan Federation",
 		"leaderName": "Representative Council",
-		"adjective": ["Naruinachian"],
+		"adjective": ["Daehan"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 
@@ -27,16 +27,16 @@
 
 		"tradeRequest": ".",
 
-		"outerColor": [205,127,50],
-		"innerColor": [110,77,37],
+		"outerColor": [255, 255, 255],
+		"innerColor": [15, 100, 205],
 		"favoredReligion": "Capitalism",
-		"uniqueName": "Mercantilism",
+		"uniqueName": "Free States of Korea",
 		"uniques": [ 
 			"Starts with [Monopoly] adopted", 
 			"[+999999999]% Culture cost of natural border growth [in all cities]",
 			"[+20]% Great Person generation [in all cities]"
 		],
-		"cities": ["Naruinach"],
+		"cities": ["Nyuhanseong", "Dongnae Freeport", "Seogyeong District", "Chongjin Belt"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	},
 		{
