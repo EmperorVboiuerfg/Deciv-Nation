@@ -1,8 +1,8 @@
 [
 	{
-		"name": "Men At Arms",
+		"name": "National Servicemen",
 		"unitType": "Scrapper",
-		"uniqueTo": "Naruinach Republic",
+		"uniqueTo": "Daehan Federation",
 		"replaces": "Soldier"
 		"movement": 2,
 		"strength": 38,
@@ -13,9 +13,9 @@
 		"promotions": ["Reconnaissance I"],
 	},
 		{
-		"name": "Light Gunmen",
+		"name": "Leinjeoseu",
 		"unitType": "Shooter",
-		"uniqueTo": "Naruinach Republic",
+		"uniqueTo": "Daehan Federation",
 		"movement": 3,
 		"strength": 20,
 		"rangedStrength": 35,
@@ -25,16 +25,15 @@
 		"promotions": ["Shock","Skirmish"],
 	},
 			{
-		"name": "Mounted Mercenaries",
+		"name": "Debug Unit",
 		"unitType": "Scrapper",
-		"uniqueTo": "Naruinach Republic",
+		"uniqueTo": "Daehan Federation",
 		"movement": 20,
 		"strength": 400,
 		"cost": 25,
 		"requiredTech": "Rifling",
 		"hurryCostModifier": 20,
 		"uniques": [			"Can move after attacking",
-			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
 		       "No movement cost to pillage"]
@@ -42,7 +41,7 @@
 			{
 		"name": "Merchant Ships",
 		"unitType": "Ranged Water",
-		"uniqueTo": "Naruinach Republic",
+		"uniqueTo": "Daehan Federation",
 		"movement": 6,
 		"strength": 35,
 		"cost": 1,
@@ -52,7 +51,7 @@
 				{
 		"name": "Mercenary Gunmen",
 		"unitType": "Shooter",
-		"uniqueTo": "Naruinach Republic",
+		"uniqueTo": "Daehan Federation",
 		"movement": 3,
 		"strength": 43,
 		"rangedStrength": 38,
