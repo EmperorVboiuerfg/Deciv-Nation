@@ -153,7 +153,7 @@
     "name": "No Expansion" 
     "uniqueTo": "Elysium"
     "Cost": 1,
-	"Food": 3,
+	"food": 3,
     "uniques": [
 "[+9000000]% Culture cost of natural border growth [in all cities]",
 		"New [Military] units start with [150000] XP [in all cities]",
