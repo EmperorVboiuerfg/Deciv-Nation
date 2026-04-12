@@ -100,7 +100,7 @@
   },
   {
     "name": "Wave Harnessers" 
-    "uniqueTo": "Daehan Federation"
+    "uniqueTo": "Elysium"
     "Cost": 1,
     "science": 2,
     "maintainence": 10,
@@ -153,8 +153,16 @@
     "name": "No Expansion" 
     "uniqueTo": "Elysium"
     "Cost": 1,
+	"Food": 3,
     "uniques": [
-"[+9000000]% Culture cost of natural border growth [in all cities]"
+"[+9000000]% Culture cost of natural border growth [in all cities]",
+		"New [Military] units start with [150000] XP [in all cities]",
+            "[+1 Culture] from every specialist [in this city]",
+		"[+1 Science] from every specialist [in this city]",
+		"Provides [2] [Encrypted Data]",
+			 "Provides [3] [Weapons]",
+			 "Provides [2] [Uranium]",
+			 "Provides [2] [Aluminum]",
 		]
 	  },
 ]
