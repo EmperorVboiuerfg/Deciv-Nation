@@ -153,15 +153,8 @@
     "name": "No Expansion" 
     "uniqueTo": "Elysium"
     "Cost": 1,
-    "science": 2,
-    "maintainence": 10,
-    "requiredTech": "Nuclear Fission",
-    "specialistSlots": { "Engineer": 3 },
     "uniques": [
-      "Consumes [1] [Aluminum]",
-			"Provides [3] [Power]",
-			"Only available <in cities with a [Library]>",
-	    "Provides [1] [Salt]"
+"[+20]% Culture cost of natural border growth [in all cities]"
 		]
 	  },
 ]
