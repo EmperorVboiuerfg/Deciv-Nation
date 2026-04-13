@@ -157,7 +157,7 @@
 	"faith": 50,
     "uniques": [
 "[+9000000]% Culture cost of natural border growth [in all cities]",
-		"New [Military] units start with [150000] XP [in all cities]",
+		"New [Military] units start with [15] XP [in all cities]",
             "[+1 Culture] from every specialist [in this city]",
 		"[+1 Science] from every specialist [in this city]",
 		"Provides [2] [Encrypted Data]",
