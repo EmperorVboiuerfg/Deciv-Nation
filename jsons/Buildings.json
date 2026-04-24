@@ -154,7 +154,7 @@
     "uniqueTo": "Elysium"
     "Cost": 1,
 	"food": 3,
-	"production": 500,
+	"production": 5000,
 	"faith": 50,
     "uniques": [
 "[+9000000]% Culture cost of natural border growth [in all cities]",
